@@ -16,6 +16,7 @@ public class Empleado {
     public  int cedula;
     public int salario;
     public String direccion;
+    public String barrio;
     
     //Metodos = acciones = funciones
 
@@ -33,7 +34,10 @@ public class Empleado {
         this.direccion = direccion;
     }
     
-    
+    public int calcularSalario(){
+                
+        return(0);
+    }
     
     
 }
